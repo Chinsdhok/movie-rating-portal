@@ -1,0 +1,54 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.sec1, .sec2{
+    min-height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-1{
+    background-color: rgb(0,0,0,0.8);
+    padding: 25px;
+    text-align: center;
+}
+
+.sec1-1 input, .sec1-1 select{
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.sec2-1{
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    color: black;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px #000000;
+}
+
+.card img{
+    width: 250px;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 10px;
+}
